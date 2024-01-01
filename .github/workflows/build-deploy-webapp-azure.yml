@@ -17,10 +17,11 @@
 # For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
 
-name: 031-build-deploy-webapp-to-azure
+name: build-deploy-webapp-to-azure
 
 env:
-  AZURE_WEBAPP_NAME: github-actions-workflow    # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: github-actions-webapp
+  # set this to the name of your Azure Web App
   DOTNET_VERSION: '6.0.x'                       # set this to the .NET Core version to use
 
 on:
